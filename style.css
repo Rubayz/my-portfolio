@@ -1,0 +1,24 @@
+.body {
+    font-family: 'Quicksand', sans-serif;
+}
+.welcome {
+    font-size: 80px;
+}
+.welcome::after {
+    position: absolute;
+    content: '';
+    border-bottom-width: 12px;
+    border-bottom-style: solid;
+    border-bottom-color: rgba(255,82,82,1);
+    display: block;
+    width: 80%;
+    left: 10%;
+}
+.first-part {
+    background-size: cover;
+    background-image: url(./images/icon.png);
+    transform: translate3d(0px, 0px, 0px);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
